@@ -15,7 +15,7 @@ import {
 
 // ✅ Your Reown project ID
 export const projectId =
-  process.env.NEXT_PUBLIC_PROJECT_ID
+  process.env.PROJECT_ID
 
 if (!projectId) {
   throw new Error('Project ID is not defined')
